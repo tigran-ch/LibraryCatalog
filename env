@@ -1,0 +1,2 @@
+export BOOKS_INFO_FILE=books_info.ini
+export USERS_INFO_FILE=users_info.ini
