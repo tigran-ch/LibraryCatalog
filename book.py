@@ -10,7 +10,7 @@ class Book:
     __term_of_a_fine__ = datetime.timedelta(weeks=1)
 
     def __init__(self):
-        load_dotenv()
+        load_dotenv('env')
         self.books = configparser.ConfigParser()
         self.users = configparser.ConfigParser()
 
